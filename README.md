@@ -355,7 +355,7 @@ together if you want to develop CG further
  -> Prepare Environment for CG
  * Set PACPFIX (32-bit):  
 ``` 
- export PACPFIX=mingw64/mingw-w64-x64
+ export PACPFIX=mingw64/mingw-w64-x86_64
  pacman -S base-devel
  pacman -S ${PACPFIX}-SDL2
  pacman -S ${PACPFIX}-SDL2_image
